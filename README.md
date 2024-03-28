@@ -45,10 +45,6 @@ Generate answers using the retrieved information and the generation model.
 
 Experiment with different strategies and models to optimize performance.
 
-# Contribution Guidelines
-
-Contributions to enhance the system's functionality, performance, or documentation are welcome! Please refer to the CONTRIBUTING.md file for guidelines.
-
 # Acknowledgements
 
 OpenAI for providing access to advanced text embedding and generation models.
