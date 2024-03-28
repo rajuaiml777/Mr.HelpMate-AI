@@ -8,7 +8,7 @@ This repository hosts a powerful Retrieval Augmented Generation (RAG) system des
 
 # RAG Architecture
 
-![Project Architecture]("D:\Git_Raju\Mr.HelpMate-AI\data\image\Picture1.png")
+![Project Architecture](https://github.com/rajuaiml777/Mr.HelpMate-AI/blob/main/data/image/Picture1.png)
 
 # Features
 
