@@ -1,0 +1,7 @@
+pdfplumber
+pathlib
+pandas
+tiktoken
+openai
+chromadb
+sentence-transformers
