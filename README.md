@@ -1,52 +1,46 @@
 # Mr.HelpMate-AI
 
-# Insurance Policy Document Retrieval and Generation System
+## Insurance Policy Document Retrieval and Generation System
 
-# Overview
+Welcome to Mr.HelpMate-AI, a powerful Retrieval Augmented Generation (RAG) system tailored for insurance policy documents. Our system integrates cutting-edge techniques in text embedding, search, and generation, ensuring accurate retrieval and generation of information from lengthy policy documents.
 
-This repository hosts a powerful Retrieval Augmented Generation (RAG) system designed specifically for insurance policy documents. The system integrates advanced techniques in text embedding, search, and generation, ensuring accurate retrieval and generation of information from lengthy policy documents.
-
-# RAG Architecture
+### RAG Architecture
 
 ![Project Architecture](https://github.com/rajuaiml777/Mr.HelpMate-AI/blob/main/data/image/Picture1.png)
 
-# Features
+### Features
 
-PDFPlumber Integration: Utilizes PDFPlumber library for extracting text from insurance policy PDF documents, ensuring seamless data extraction.
+- **PDFPlumber Integration**: Seamlessly extract text from insurance policy PDF documents using PDFPlumber library.
+  
+- **Text Embedding**: Employ OpenAI's "text-embedding-ada-002" model for effective chunking and embedding of extracted text, optimizing retrieval accuracy.
+  
+- **Search Layer**: Implement a search layer enabling querying against the embedded text chunks, with a cache mechanism for improved performance.
+  
+- **Generation Layer**: Leverage GPT-3.5-turbo model for generating coherent and contextually relevant answers based on the retrieved information.
 
-Text Embedding: Employs OpenAI's "text-embedding-ada-002" model for effective chunking and embedding of extracted text, optimizing retrieval accuracy.
+### Getting Started
 
-Search Layer: Implements a search layer that enables querying against the embedded text chunks, with a cache mechanism for improved performance.
+1. **Clone the repository:**
 
-Generation Layer: Leverages GPT-3.5-turbo model for generating coherent and contextually relevant answers based on the retrieved information.
 
-# Getting Started
+2. **Install dependencies:**
 
-Clone the repository:
-git clone https://github.com/rajuaiml777/Mr.HelpMate-AI.git
 
-cd Mr.HelpMate
+3. Follow the setup instructions in the documentation to configure and run the system.
 
-# Install dependencies:
+### Usage
 
-pip install -r requirements.txt
+1. Extract insurance policy text using PDFPlumber.
+2. Preprocess and embed the text chunks using the chosen embedding model.
+3. Design queries for the search layer and retrieve relevant chunks.
+4. Generate answers using the retrieved information and the generation model.
+5. Experiment with different strategies and models to optimize performance.
 
-Follow the setup instructions in the documentation to configure and run the system.
+### Acknowledgements
 
-# Usage
+- OpenAI for providing access to advanced text embedding and generation models.
+- PDFPlumber developers for creating a reliable tool for PDF text extraction.
+- Hugging Face for hosting pre-trained models and facilitating experimentation.
 
-Extract insurance policy text using PDFPlumber.
+For more details, visit our [GitHub repository](https://github.com/rajuaiml777/Mr.HelpMate-AI). Let's make insurance policy handling smarter and easier! 🚀
 
-Preprocess and embed the text chunks using the chosen embedding model.
-
-Design queries for the search layer and retrieve relevant chunks.
-
-Generate answers using the retrieved information and the generation model.
-
-Experiment with different strategies and models to optimize performance.
-
-# Acknowledgements
-
-OpenAI for providing access to advanced text embedding and generation models.
-PDFPlumber developers for creating a reliable tool for PDF text extraction.
-Hugging Face for hosting pre-trained models and facilitating experimentation.
