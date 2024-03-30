@@ -21,12 +21,16 @@ Welcome to Mr.HelpMate-AI, a powerful Retrieval Augmented Generation (RAG) syste
 ### Getting Started
 
 1. **Clone the repository:**
+   
+git clone https://github.com/rajuaiml777/Mr.HelpMate-AI.git
 
+cd Mr.HelpMate
 
 2. **Install dependencies:**
+   
+pip install -r requirements.txt
 
-
-3. Follow the setup instructions in the documentation to configure and run the system.
+3. **Follow the setup instructions in the documentation to configure and run the system.**
 
 ### Usage
 
@@ -43,4 +47,3 @@ Welcome to Mr.HelpMate-AI, a powerful Retrieval Augmented Generation (RAG) syste
 - Hugging Face for hosting pre-trained models and facilitating experimentation.
 
 For more details, visit our [GitHub repository](https://github.com/rajuaiml777/Mr.HelpMate-AI). Let's make insurance policy handling smarter and easier! 🚀
-
