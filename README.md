@@ -28,8 +28,9 @@ Welcome to Mr.HelpMate-AI, a powerful Retrieval Augmented Generation (RAG) syste
 ```
 
 2. **Install dependencies:**
-   
+```bash  
   pip install -r requirements.txt
+```
 
 3. **Follow the setup instructions in the documentation to configure and run the system.**
 
