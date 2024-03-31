@@ -42,6 +42,9 @@ Welcome to Mr.HelpMate-AI, a powerful Retrieval Augmented Generation (RAG) syste
 4. Generate answers using the retrieved information and the generation model.
 5. Experiment with different strategies and models to optimize performance.
 
+## Contribution
+Contributions of any kind are welcome.
+
 ### Acknowledgements
 
 - OpenAI for providing access to advanced text embedding and generation models.
